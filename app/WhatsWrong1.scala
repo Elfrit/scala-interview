@@ -12,6 +12,6 @@ object WhatsWrong1 {
     override val city = "Paris"
   }
 
-  Supporter.city //What does this print ?
-  Supporter.support //What does this print and why ? How to fix it ?
+  Supporter.city //Print : Paris
+  Supporter.support //Print : Ici c'est null ! 
 }
